@@ -1,8 +1,8 @@
 import { jsdom } from 'jsdom';
 import React from 'react';
 import { mount } from 'enzyme';
-import { EditorState, ContentState } from 'draft-js';
-import DraftPasteProcessor from 'draft-js/lib/DraftPasteProcessor';
+import { EditorState, ContentState } from '@jonny/draft-js';
+import DraftPasteProcessor from '@jonny/draft-js/lib/DraftPasteProcessor';
 import chai from 'chai';
 const expect = chai.expect;
 

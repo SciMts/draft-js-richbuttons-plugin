@@ -1,6 +1,6 @@
 import StyleButton from './StyleButton';
 import BlockButton from './BlockButton';
-import { RichUtils, EditorState } from 'draft-js';
+import { RichUtils, EditorState } from '@jonny/draft-js';
 import { MAX_LIST_DEPTH, INLINE_STYLES, BLOCK_TYPES } from './config/types';
 
 import decorateComponentWithProps from 'decorate-component-with-props';
